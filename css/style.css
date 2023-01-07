@@ -1,1 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
+/* hedear-design */
+.hedear{
+    background-image: url(/images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 200vh;
+    text-align: right ;
+    align-items: center;
+}
+.hedear-banner{
+    padding-top: 220px;
+    padding-right: 200px;
+}
+.hedear-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: black;
+    font-size: 65px;
+    line-height: 76px;
+    margin-bottom: 30px;
+}
+
+.hedear-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hedear-button {
+    width: 150px;
+    height: 60px;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
+.hedear-button span{
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
