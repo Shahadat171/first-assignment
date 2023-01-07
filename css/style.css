@@ -102,7 +102,7 @@
     padding-top: 150px;
 }
 .section-two-title{
-margin-left: 50%;
+margin-left: 45%;
 font-size: 2.5rem;
 font-weight: bolder; 
 }
@@ -134,4 +134,31 @@ font-weight: bolder;
 .section-two-description{
     font-size: 1.5rem;
     color: #737272
+}
+/* section-three-styles */
+.my-steps-section{
+    margin-top: 7.5%;
+}
+.section-three-main{
+    display: flex;
+    margin-left: 250px;
+    gap: 25px;
+    padding-left: 20px;
+}
+.section-three-title{
+  margin-left: 45%;
+  font-size: 2.25rem;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+.section-three-child{
+    background-color:#F8F9FA ;
+    width: 25%;
+    height: 30%;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid gray;
+}
+.section-three-description{
+    padding-top: 14px;
 }
