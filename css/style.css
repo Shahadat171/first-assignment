@@ -1,22 +1,25 @@
 * {
     padding: 0px;
     margin: 0px;
+
 }
 
 /* hedear-design */
-.hedear{
+.hedear {
     background-image: url(/images/banner/banner2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 200vh;
-    text-align: right ;
+    text-align: right;
     align-items: center;
 }
-.hedear-banner{
+
+.hedear-banner {
     padding-top: 220px;
     padding-right: 200px;
 }
+
 .hedear-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
@@ -42,8 +45,93 @@
     border: none;
     border-radius: 5px;
 }
-.hedear-button span{
+
+.hedear-button span {
     color: #FFFFFF;
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+/* section one disign */
+.section-one {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+.section-one-img{
+    
+}
+.section-one-div {
+    margin-top: 220px;
+}
+
+.section-one-title {
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 15px;
+
+}
+
+.section-one-description {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444343;
+    padding-left: 15px;
+}
+.section-one-list{
+    margin-left: 15px;
+    list-style: none;
+    line-height: 30px;
+    font-size: larger;
+}
+.section-one-list li::before{
+    color: #16D887;
+    content: '✓';
+}
+.section-one-list li{
+    gap: 5px;
+}
+/* My plan section two */
+.section-two{
+    padding-top: 150px;
+}
+.section-two-title{
+margin-left: 50%;
+font-size: 2.5rem;
+font-weight: bolder; 
+}
+.section-two-skills{
+    display: flex;
+    justify-content:center;
+    padding-top: 50px;
+    gap: 80px;
+    padding-left: 40px;
+}
+.web{
+    align-items:center;
+    text-align: center;
+}
+.java{
+    text-align: center;
+}
+.smoking{
+    text-align: center;
+}
+.ecommerce{
+    text-align: center;
+}
+.section-two-subtitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.1rem;
+}
+.section-two-description{
+    font-size: 1.5rem;
+    color: #737272
 }
